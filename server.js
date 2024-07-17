@@ -18,7 +18,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.get('7test', (req, res) => {
+app.get('/test', (req, res) => {
     res.json({status: 200, message: 'Hello World'})
 })
 
